@@ -1,8 +1,9 @@
-from pydantic import BaseModel, EmailStr, condecimal
-from typing import Optional
 from datetime import datetime
 from decimal import Decimal
-from typing import Annotated
+from typing import Annotated, Optional
+
+from pydantic import BaseModel, EmailStr, condecimal
+
 
 # Employee Schemas
 class EmployeeBase(BaseModel):

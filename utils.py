@@ -1,5 +1,6 @@
 import bcrypt
 
+
 # Password hashing and verification
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     hashed_password_bytes = hashed_password.encode()
